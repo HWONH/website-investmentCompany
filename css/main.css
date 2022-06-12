@@ -1,0 +1,78 @@
+@charset "utf-8";
+#section01{height: 760px;background-image:url(../img/header-bg.jpg);background-size: cover;background-position: center;}
+#section01 .cloud_bg{display: table;width: 100%;height: 100%;background-image: url(../img/cloud.png);background-repeat: no-repeat;background-size: 200% auto;background-position: 0 100%;animation: cloud_move 50s linear infinite;}
+
+@keyframes cloud_move{
+    0%{background-position: 0 120%;}
+    50%{background-position: 100% 120%;}
+    100%{background-position: 0 120%;}
+}
+
+#section01 .cloud_bg .center{color: #ffffff;font-size: 0;}
+#section01 .cloud_bg .center p{font-size: 17.99px;}
+#section01 .cloud_bg .center h2{font-size: 35.98px;padding: 15px 0 55px;}
+#section01 .cloud_bg .center h2 .large{font-size: 47.97px;}
+#section01 .cloud_bg .center a{display: inline-block;vertical-align: middle;width: 160px;line-height: 30px;font-size: 16px;border-radius: 4px;background: #5e889e;margin: 0 15px;transition: background 0.5s, color 0.5s;}
+#section01 .cloud_bg .center a:hover{background: #999999;color: #755562;}
+
+#section02{}
+#section02 .area{padding: 0;}
+#section02 .area ul{font-size: 0;text-align: center;color: #5c5c5c;padding-bottom: 50px;}
+#section02 .area ul li{display: inline-block;vertical-align: top;width: 380px;margin: 0 10px;}
+#section02 .area ul li img{display: inline-block;height: 130px;}
+#section02 .area ul li h4{font-size: 17.73px;font-weight: normal;padding: 22px 0 20px;}
+#section02 .area ul li p{font-size: 14px;word-break: keep-all;}
+
+#section03{height: 200px;background-image: url(../img/Investment-Performance-Banner-650.jpg);background-size: cover;background-position: 50%;background-attachment: fixed;}
+#section03 .dark_bg{display: table;width: 100%;height: 100%;background-color: rgba(0,0,0,.5);}
+#section03 .dark_bg .center{color: #ffffff;}
+#section03 .dark_bg .center h3{font-size: 24.13px;padding-bottom: 25px;}
+#section03 .dark_bg .center  a{display: block;font-size: 14.07px;color: #5e889e;}
+
+#section04{background-image: url(../img/main2-bg.png);background-size: cover;background-position: 50%;}
+#section04 .area{padding: 0;}
+#section04 .area .title{padding: 80px 0 40px;color: #5e889e;}
+#section04 .area ul{font-size: 0;text-align: center;}
+#section04 .area .branches{}
+#section04 .area ul li{display: inline-block;vertical-align: middle;}
+#section04 .area .branches li{position: relative;width: 280px;height: 420px;padding: 20px;margin: 0 10px;border-radius: 4px;color: #5c5c5c;text-align: left;}
+#section04 .area .branches li:hover{box-shadow: 0 0 6px #000;}
+#section04 .area .branches li .img_box{overflow: hidden;}
+#section04 .area .branches li .img_box .img{display: block;height: 160px;background-size: cover;background-position: 50%;transition: transform 0.5s;}
+#section04 .area .branches li:nth-child(1) .img{background-image: url(../img/invest-01.jpg);}
+#section04 .area .branches li:nth-child(2) .img{background-image: url(../img/invest-02.jpg);}
+#section04 .area .branches li:nth-child(3) .img{background-image: url(../img/invest-03.jpg);}
+#section04 .area .branches li:nth-child(4) .img{background-image: url(../img/invest-04.jpg);}
+#section04 .area .branches li:hover .img{transform: scale(1.05);}
+#section04 .area .branches li strong{display: inline-block;font-size: 18px;padding: 40px 0 10px;}
+#section04 .area .branches li p{font-size: 14px;word-break: keep-all;}
+#section04 .area .branches li a{position: absolute;bottom: 20px;left: 20px;width: calc(100% - 40px);background: #aaaaaa;text-align: right;}
+
+#section04 .area .partner{height: 50px;margin: 100px 0 80px;background-image: url(../img/paysys-icon.png);background-size: contain;background-position: 50%;background-repeat: no-repeat;}
+
+/* #section04 .area .partner{padding: 100px 0 80px;}
+#section04 .area .partner li{background-size: contain;background-position: 50%;}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);}
+#section04 .area .partner li:nth-child(){background-image: url(../img/);} */
+
+#section05{background-image: url(../img/quick-enquiry.jpg);background-size: cover;background-position: 50%;}
+#section05 .dark_bg{background: rgba(0,0,0,.5);}
+#section05 .dark_bg .area{padding: 0;}
+#section05 .dark_bg .area .title{padding: 60px 0 30px;color: #ffffff;}
+#section05 .dark_bg .area ul{font-size: 0;text-align: center;padding-bottom: 70px;}
+#section05 .dark_bg .area ul li{display: inline-block;vertical-align: middle;margin: 10px;}
+#section05 .dark_bg .area ul li a{display: block;width: 180px;height: 100px;background-size: contain;background-position: 50%;}
+#section05 .dark_bg .area ul li:nth-child(1) a{background-image: url(../img/managers/m_01.jpg);}
+#section05 .dark_bg .area ul li:nth-child(2) a{background-image: url(../img/managers/m_02.jpg);}
+#section05 .dark_bg .area ul li:nth-child(3) a{background-image: url(../img/managers/m_03.jpg);}
+#section05 .dark_bg .area ul li:nth-child(4) a{background-image: url(../img/managers/m_04.jpg);}
+#section05 .dark_bg .area ul li:nth-child(5) a{background-image: url(../img/managers/m_05.jpg);}
+#section05 .dark_bg .area ul li:nth-child(6) a{background-image: url(../img/managers/m_06.jpg);}
+#section05 .dark_bg .area ul li:nth-child(7) a{background-image: url(../img/managers/m_07.jpg);}
+#section05 .dark_bg .area ul li:nth-child(8) a{background-image: url(../img/managers/m_08.jpg);}
+#section05 .dark_bg .area ul li:nth-child(9) a{background-image: url(../img/managers/m_09.jpg);}
+#section05 .dark_bg .area ul li:nth-child(10) a{background-image: url(../img/managers/m_10.jpg);}
