@@ -1,0 +1,28 @@
+@charset "utf-8";
+#section01{height: 220px;background-image: url(../img/header-bg.jpg);background-size: cover;background-position: 50%;}
+#section01 .cloud_bg{height: 100%;background-image: url(../img/cloud.png);background-repeat: no-repeat;background-size: 150% auto;background-position: 0 50%;animation: cloud_move 50s linear infinite;} /* .cloud_bg의 영역값보다 background-size의 영역값이 더 크므로 background-position의 값을 0% 0%로 맞춘 후, 조절해가보며 적당한 값을 찾을 것 */
+
+@keyframes cloud_move{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+#section02{margin-bottom: 20px;}
+#section02 .area{width: 1000px;color: #5c5c5c;}
+#section02 .area .title{padding-bottom: 40px;}
+#section02 .area > div{padding-bottom: 40px;}
+#section02 .area > div .txt{width: 580px;margin-right: 20px;font-size: 14px;word-break: keep-all;}
+#section02 .area > div .txt p{padding-bottom: 20px;letter-spacing: -0.05px;}
+/* #section02 .area > div .txt p:last-child{padding-bottom: 0;} */
+#section02 .area > div .img{width: 380px;height: 382px;background-size: contain;background-position: 50% 40px;background-repeat: no-repeat;}
+
+#section02 .area .top{}
+#section02 .area .top .txt{}
+#section02 .area .top .txt p{}
+#section02 .area .top .img{background-image: url(../img/sub/plant.png);}
+
+#section02 .area .btn{}
+#section02 .area .btn .txt{margin: 0 0 0 20px;}
+#section02 .area .btn .txt p{}
+#section02 .area .btn .img{background-image: url(../img/sub/certificate.png);}

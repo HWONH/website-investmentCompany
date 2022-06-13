@@ -1,0 +1,39 @@
+@charset "utf-8";
+#section01{height: 220px;background-image: url(../img/header-bg.jpg);background-size: cover;background-position: 50%;}
+#section01 .cloud_bg{height: 100%;background-image: url(../img/cloud.png);background-repeat: no-repeat;background-size: 150% auto;background-position: 0 50%;animation: cloud_move 50s linear infinite;}
+
+@keyframes cloud_move{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+#section02{}
+#section02 .area{width: 1000px;}
+#section02 .area .title{padding-bottom: 40px;}
+#section02 .area p{word-break: keep-all;padding-bottom: 20px;}
+#section02 .area ul{padding-top: 20px;}
+#section02 .area ul li{position: relative;float: left;width: 480px;height: 310px;padding: 30px;border: 1px solid #5e889e;border-radius: 4px;background-size: 140px auto;background-position: 330px bottom;background-repeat: no-repeat;}
+#section02 .area ul li:nth-child(1){background-image: url(../img/sub/partner.png); margin-right: 20px;}
+#section02 .area ul li:nth-child(2){background-image: url(../img/sub/representative.png); }
+#section02 .area ul li strong{display: inline-block;font-size: 18.32px;font-weight: normal;color: #5e889e;padding-bottom: 20px;}
+#section02 .area ul li strong .large{font-size: 24.43px;}
+#section02 .area ul li p{color: #5c5c5c;word-break: keep-all;}
+#section02 .area ul li button{position: absolute;left: 30px;bottom: 30px;width: 250px;line-height: 40px;text-align: center;color: #ffffff;background: #5e889e;border-radius: 4px;}
+
+#section03{}
+#section03 .area{width: 1000px;text-align: center;}
+#section03 .area .title{padding: 60px 0 40px;}
+#section03 .area ul{display: inline-block;width: 800px;}
+#section03 .area ul li{float: left;margin: 0 10px;}
+#section03 .area ul li a{display: block;width: 180px;height: 100px;background-size: contain;background-position: 50%;}
+#section03 .area ul li:nth-child(1) a{background-image: url(../img/managers/m_01.jpg);}
+#section03 .area ul li:nth-child(2) a{background-image: url(../img/managers/m_02.jpg);}
+#section03 .area ul li:nth-child(3) a{background-image: url(../img/managers/m_03.jpg);}
+#section03 .area ul li:nth-child(4) a{background-image: url(../img/managers/m_04.jpg);}
+#section03 .area ul li:nth-child(5) a{background-image: url(../img/managers/m_05.jpg);}
+#section03 .area ul li:nth-child(6) a{background-image: url(../img/managers/m_06.jpg);}
+#section03 .area ul li:nth-child(7) a{background-image: url(../img/managers/m_07.jpg);}
+#section03 .area ul li:nth-child(8) a{background-image: url(../img/managers/m_08.jpg);}
+#section03 .area ul li:nth-child(9) a{background-image: url(../img/managers/m_09.jpg);}
+#section03 .area ul li:nth-child(10) a{background-image: url(../img/managers/m_10.jpg);}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+#section01{height: 220px;background-image: url(../img/header-bg.jpg);background-size: cover;background-position: 50%;}
+#section01 .cloud_bg{height: 100%;background-image: url(../img/cloud.png);background-repeat: no-repeat;background-size: 150% auto;background-position: 0 50%;animation: cloud_move 50s linear infinite;}
+
+@keyframes cloud_move{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+#section02{}
+#section02 .area{width: 1000px;}
+#section02 .area .title{padding-bottom: 40px;}
+#section02 .area ul{padding-bottom: 40px;}
+#section02 .area ul li{padding: 20px;margin-bottom: 40px;border: 1px solid #5e889e;border-radius: 4px;}
+#section02 .area ul li h3{font-size: 18px;font-weight: normal;color: #5e889e;padding-bottom: 20px;}
+#section02 .area ul li p{font-size: 14px;color: #5c5c5c;}
